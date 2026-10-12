@@ -28,7 +28,7 @@ while True:
     print("7. Exit")
     choice = input("Choose an option (1-7): ")
     if choice == "7":
-        print("Goodbye!")
+        print("done!")
         break
     if choice not in ["1", "2", "3", "4", "5", "6"]:
         print("Wrong choice. Please pick 1 to 7.")
